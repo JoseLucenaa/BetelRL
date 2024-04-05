@@ -73,6 +73,8 @@ header .links li button{
     top: 1px;
     font-weight: 600;
     font-size: 13px;
+    cursor: pointer;
+    transition: .3s;
 }
 
 header .links li button:hover{
