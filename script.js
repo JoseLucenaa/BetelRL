@@ -1,11 +1,15 @@
 const open = document.querySelector(".menu-icon");
+const close = document.querySelector(".btn-fechar");
 const menu = document.querySelector(".menu-mobile");
-const close = document.querySelector(".btn-fechar")
 
-open.addEventListener('click', () => {
-    menu.style.display = 'block';
-});
+setTimeout(() => {
+    open.addEventListener('click', function(evento) { 
+        menu.style.display = 'block'; 
+    });
+}, 1000);
 
-close.addEventListener('click', () => {
-    menu.style.display = 'none';
-});
+setTimeout(() => {
+    close.addEventListener('click', function(evento) { 
+        menu.style.display = 'none'; 
+    });
+}, 1000);
