@@ -254,6 +254,10 @@ section{
         display: block;
     }
 
+    header .logo{
+        width: 80px;
+    }
+
     header .links{
         display: none;
     }
