@@ -91,6 +91,14 @@ header .btn .fc:hover{
     color: black;
 }
 
+header .btn a#loc{
+    transition: .3s;
+}
+
+header .btn a#loc:hover{
+    color: rgb(102, 102, 102);
+}
+
 .menu-icon i{
     color: rgb(255, 255, 255);
     font-size: 40px;
@@ -104,7 +112,7 @@ section{
     padding: 4px;
 }
 #s1{
-    background-image: url(img/fundo.jpg);
+    background-image: url(assets/fundo.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,6 +179,15 @@ section{
     color: rgb(255, 255, 255);
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(14, 14, 14);
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: white;
+}
 
 /* ESTILO DO MENU MOBILE */
 
