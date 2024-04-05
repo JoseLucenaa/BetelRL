@@ -1,15 +1,18 @@
 const open = document.querySelector(".menu-icon");
 const close = document.querySelector(".btn-fechar");
 const menu = document.querySelector(".menu-mobile");
+const back = document.querySelector(".overlay-menu");
 
-setTimeout(() => {
-    open.addEventListener('click', function(evento) { 
-        menu.style.display = 'block'; 
-    });
-}, 1000);
 
-setTimeout(() => {
-    close.addEventListener('click', function(evento) { 
-        menu.style.display = 'none'; 
-    });
-}, 1000);
+open.addEventListener('click', () => { 
+        menu.classList.add('abrir-menu')
+});
+
+
+menu.addEventListener('click', () => { 
+    menu.classList.remove('abrir-menu')
+});
+
+back.addEventListener('click', () => { 
+    menu.classList.remove('abrir-menu')
+});

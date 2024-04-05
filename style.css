@@ -54,6 +54,7 @@ header .links li{
 }
 header .links li a{
     color: white;
+    transition: .3s;
 }
 
 header .links li a:hover{
@@ -174,13 +175,23 @@ section{
 /* ESTILO DO MENU MOBILE */
 
 .menu-mobile{
-    background: rgb(37, 37, 37);
+    background: rgb(25, 25, 25);
     height: 100vh;
+    width: 0%;
+    overflow: hidden;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 999;
-    display: none;
+    transition: .3s;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
 }
 
 .menu-mobile .btn-fechar{
@@ -201,6 +212,7 @@ section{
     font-weight: 300;
     padding: 20px 8%;
     display: block; 
+    transition: .3s;
 }
 
 .menu-mobile ul li.nav-item a:hover{
@@ -215,7 +227,7 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 88888;
+    z-index: 888;
     display: none;
 }
 @media screen and (max-width: 730px) {
