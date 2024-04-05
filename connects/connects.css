@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+header .logo img{
+    width: 70px;
+}
+
+header .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-weight: 600;
+    font-size: 13px;
+}
+header .links li a{
+    color: white;
+    transition: .3s;
+}
+
+header .links li a:hover{
+    color: #f66f08;
+}
+
+header .links li#connect a{
+    color: #f66f08;
+}
+header .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+header .btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: white;
+    text-decoration: none
+}
+
+header .btn a i{
+    margin-right: 5px;
+}
+header .btn .fc{
+    border: 1px solid #f66f08;
+    padding: 15px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+header .btn .fc:hover{
+    background: #f66f08;
+}
+
+header .btn a#loc{
+    transition: .3s;
+}
+
+header .btn a#loc:hover{
+    color: #f66f08;
+}
+
+.menu-icon i{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    display: none;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(14, 14, 14);
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: white;
+}
+
+/* ESTILO DO MENU MOBILE */
+
+.menu-mobile{
+    background: rgb(25, 25, 25);
+    height: 100vh;
+    width: 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    transition: .3s;
+}
+
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu{
+    display: block;
+}
+
+.menu-mobile .btn-fechar{
+    padding: 20px 5%;
+}
+.menu-mobile .btn-fechar i{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+}
+
+.menu-mobile nav ul li.nav-item a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block; 
+    transition: .3s;
+}
+
+.menu-mobile ul li.nav-item a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.overlay-menu{
+    background-color: #000000a8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 888;
+    display: none;
+}
+@media screen and (max-width: 730px) {
+    .menu-icon i{
+        display: block;
+    }
+
+    header .logo{
+        width: 80px;
+    }
+
+    header .links{
+        display: none;
+    }
+
+    header .btn{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .menu-icon i{
+        display: block;
+    }
+
+    header .links{
+        display: none;
+    }
+
+    header .btn{
+        display: none;
+    }
+}
