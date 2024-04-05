@@ -5,6 +5,7 @@ const back = document.querySelector(".overlay-menu");
 const enc = document.getElementById("encontro")
 const btn = document.querySelector(".btn-s1")
 const txt = document.querySelector(".txt-an")
+const cont = document.querySelector(".img-cont")
 
 let isMenuOpen = false;
 
@@ -25,10 +26,12 @@ back.addEventListener('click', () => {
 
 enc.addEventListener('click', () => { 
     if (isMenuOpen) {
+        cont.style.display = 'block';
         btn.style.display = 'block';
         txt.style.display = 'none';
         isMenuOpen = false;
     } else {
+        cont.style.display = 'none';
         btn.style.display = 'none';
         txt.style.display = 'block';
         isMenuOpen = true;
