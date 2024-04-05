@@ -51,7 +51,8 @@ header .links li{
     align-items: center;
     justify-content: center;
     margin: 15px;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 13px;
 }
 header .links li a{
     color: white;
