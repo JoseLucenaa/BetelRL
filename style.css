@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 *{
     margin: 0;
@@ -21,7 +23,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     padding: 15px;
-    background-color: transparent;
+    background-color: rgb(12, 12, 12);
 }
 
 header .logo{
@@ -70,7 +72,7 @@ header .links li button{
     background: transparent;
     font-family: 'Montserrat', sans-serif;
     border: none;
-    top: 1px;
+    top: 0.7px;
     font-weight: 600;
     font-size: 13px;
     cursor: pointer;
@@ -129,6 +131,9 @@ section{
     width: 100%;
     height: 100vh;
     padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #s1{
     background-image: url(assets/fundo11.jpg);
@@ -211,6 +216,63 @@ section{
     background-color: transparent;
     color: rgb(255, 255, 255);
 }
+
+#s2{
+    background-color: #0001;
+}
+
+#s2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    width: 20%;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+}
+
+.card-top {
+    height: 50%;
+}
+
+.card-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-bottom {
+    padding: 20px;
+}
+
+.card-bottom h3 {
+    margin-bottom: 10px;
+}
+
+.card-bottom p {
+    color: #666;
+}
+
+#s3{
+    background-color: #444;
+    height: 200vh;
+}
+
+
+
+
+
 
 ::-webkit-scrollbar{
     width: 10px;
@@ -319,6 +381,20 @@ section{
 
     header .btn{
         display: none;
+    }
+    #s2{
+        height: 200vh;
+    }
+    .card-container{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .card{
+        width: 70%;
+        height: 400px;
     }
 }
 

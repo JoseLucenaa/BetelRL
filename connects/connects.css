@@ -21,7 +21,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     padding: 15px;
-    background-color: transparent;
+    background-color: rgb(12, 12, 12);
 }
 
 header .logo{
@@ -74,7 +74,7 @@ header .links li button{
     background: transparent;
     font-family: 'Montserrat', sans-serif;
     border: none;
-    top: 1px;
+    top: 0.7px;
     font-weight: 600;
     font-size: 13px;
     transition: .3s;
