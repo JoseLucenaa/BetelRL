@@ -142,7 +142,7 @@ section{
     background-repeat: no-repeat;
     border-image: fill 0 linear-gradient(180deg, #0001, #000);
     width: 100%;
-    height: 95vh;
+    height: 97vh;
     padding: 4px;
     display: flex;
     align-items: center;
@@ -222,7 +222,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 110vh;
+    height: 100vh;
 }
 
 .card-container {
