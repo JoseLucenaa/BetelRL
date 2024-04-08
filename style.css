@@ -278,8 +278,44 @@ section{
 }
 #s3{
     background-color: #F6F6F6;
-    height: 200vh;
+    display: flex;
+    align-items: start;
+    width: 100vw;
 }
+.container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container iframe{
+    width: 800px; 
+    height: 400px;
+}
+.aovivo-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    font: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.aovivo-h1 hr{
+    width: 200px;
+    height: 6px;
+    background-color: #000;
+}
+
+
+
 
 
 
@@ -417,6 +453,15 @@ section{
 
     #s3{
         height: 80vh;
+    }
+    .container iframe{
+        width: 100%; 
+        height: 270px;
+    }
+
+    .aovivo-h1{
+        width: 100%;
+        margin-bottom: 70px;
     }
 }
 
