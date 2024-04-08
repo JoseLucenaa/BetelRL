@@ -107,13 +107,13 @@ header .btn a i{
 }
 header .btn .fc{
     border: 1px solid white;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 7px;
+    border-radius: 2px;
     transition: .5s;
 }
 
 header .btn a.fc{
-    font-size: 14.4px;
+    font-size: 13px;
     font-weight: 600;
 }
 
@@ -193,7 +193,7 @@ section{
     width: 150px;
     margin: 10px;
     padding: 12px;
-    border-radius: 50px;
+    border-radius: 4px;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -213,7 +213,7 @@ section{
     width: 150px;
     margin: 10px;
     padding: 12px;
-    border-radius: 50px;
+    border-radius: 4px;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -251,8 +251,8 @@ section{
 .card {
     width: 23%;
     height: 400px;
+    border-radius: 4px;
     background-color: #f4f4f4;
-    border-radius: 10px;
     border: none;
     overflow: hidden;
     transition: transform 0.3s ease;
@@ -268,6 +268,7 @@ section{
 
 .card-top {
     height: 50%;
+    background-color: #000;
 }
 
 .card-top img {
@@ -334,6 +335,7 @@ section{
 }
 
 .top-cb hr{
+    border: none;
     width: 200px;
     height: 6px;
     background-color: #000;
