@@ -386,6 +386,7 @@ section{
     align-items: start;
     justify-content: center;
     width: 100vw;
+    height: 120vh;
 }
 .container-s4{
     width: 90%;
@@ -443,6 +444,27 @@ p::selection{
 }
 
 /* SECTION 4 */
+
+/* FOOTER */
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SCROLLBAR */
 :-webkit-scrollbar{
@@ -538,6 +560,7 @@ p::selection{
 }
 
 /* ESTILO DO MENU MOBILE */
+
 
 
 
