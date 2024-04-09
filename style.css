@@ -342,13 +342,14 @@ section{
     display: flex;
     align-items: start;
     width: 100vw;
+    height: 100vh;
 }
 .container{
     width: 90%;
     height: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     padding: 20px;
 }
@@ -368,7 +369,8 @@ section{
     width: 100%;
     font: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    margin-top: 20px;
 }
 
 .top-cb hr{
@@ -381,19 +383,19 @@ section{
 
 /* SECTION 4 */
 #s4{
-    background-color: #000000;
+    background-color: #F6F6F6;
     display: flex;
     align-items: start;
     justify-content: center;
     width: 100vw;
-    height: 120vh;
+    height: 90vh;
 }
 .container-s4{
     width: 90%;
     height: 90%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     padding: 20px;
 }
@@ -411,14 +413,14 @@ section{
 }
 
 .top-cb-s4 h1{
-    color: #F6F6F6;
+    color: #000000;
 }
 
 .top-cb-s4 hr{
     border: none;
     width: 180px;
     height: 6px;
-    background-color: #f6f6f6;
+    background-color: #000000;
 }
 
 .txt-s4{
@@ -431,36 +433,70 @@ section{
     font-family: 'Montserrat', sans-serif;
     font: 400;
     font-size: 18px;
-    color: #F6F6F6;
+    color: #000000;
     text-align: justify;
     margin-top: 15px;
     line-height: 1.5;
     user-select: text;
+    font-weight: 600;
 }
+
 
 p::selection{
-    background-color: #e4e4e4;
-    color: #000;
+    background-color: #0e0e0e;
+    color: #ffffff;
 }
-
 /* SECTION 4 */
 
-/* FOOTER */
+
+
+/* SECTION 5 */
+#s5{
+    background-color: #0e0e0e;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100vw;
+    height: 120vh;
+}
+
+/* SECTION 5 */
+
+
+
+
+
+
+
+
 
 /* FOOTER */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 40px;
+    background-color: #1f1f1f;
+    color: rgb(98, 98, 98);
+}
 
+footer img{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
 
+footer a {
+    color: rgb(98, 98, 98);
+    font-size: 13px;
+}
 
-
-
-
-
-
-
-
-
-
-
+footer p{
+    font-size: 13px;
+}
+/* FOOTER */
 
 
 
@@ -628,11 +664,12 @@ p::selection{
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 15px;
-        color: #F6F6F6;
+        color: #000000;
         text-align: justify;
         margin-top: 15px;
         line-height: 1.5;
         user-select: text;
+        font-weight: 600;
     }
 
     .top-cb-s4{
@@ -648,7 +685,7 @@ p::selection{
     }
 
     .top-cb-s4 h1{
-        color: #F6F6F6;
+        color: #000000;
     }
 
     .p3{
