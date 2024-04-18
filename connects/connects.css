@@ -85,6 +85,10 @@ header .links li button:hover{
     color: #f66f08;
 }
 
+header nav.links ul li a#con{
+    color: #f66f08;
+}
+
 header .btn{
     display: flex;
     align-items: center;
@@ -106,17 +110,18 @@ header .btn a i{
 header .btn .fc{
     border: 1px solid #f66f08;
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 2px;
     transition: .5s;
 }
 
 header .btn a.fc{
-    font-size: 14.4px;
+    font-size: 13px;
     font-weight: 600;
 }
 
 header .btn .fc:hover{
     background: #f66f08;
+    color: rgb(255, 255, 255);
 }
 
 header .btn a#loc{

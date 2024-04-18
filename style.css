@@ -90,6 +90,8 @@ header .links li button{
 header .links li button:hover{
     color: rgb(102, 102, 102);
 }
+
+
 header .btn{
     display: flex;
     align-items: center;
@@ -369,7 +371,7 @@ section{
     width: 100%;
     font: 700;
     font-size: 35px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     margin-top: 20px;
 }
 
